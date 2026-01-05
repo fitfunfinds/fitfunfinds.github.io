@@ -50,6 +50,17 @@
 </div>
 
 <!-- Second YouTube video -->
+/* Make product images display one per line */
+.product-gallery {
+  display: block; /* not flex */
+}
+
+.product-gallery img {
+  display: block;       /* forces each image to a new line */
+  max-width: 100%;      /* responsive sizing */
+  margin-bottom: 10px;  /* spacing between images */
+}
+  
 <div class="video-container-small">
   <iframe 
     width="300" 
