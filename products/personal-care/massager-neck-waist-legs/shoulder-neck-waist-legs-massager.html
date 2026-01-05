@@ -6,23 +6,20 @@
   <title>肩颈腰腿按摩器</title>
   <link rel="stylesheet" href="../../../css/styles.css">
   <style>
-    /* Make YouTube videos responsive */
-    .video-container {
-      position: relative;
-      padding-bottom: 60.78%; /* 9:16 ratio */
-      height: 0;
-      overflow: hidden;
-      max-width: 100%;
-      margin-bottom: 20px;
-    }
-    .video-container iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: 0;
-    }
+  /* Small YouTube video container */
+  .video-container-small {
+    width: 180px;           /* width of iframe */
+    aspect-ratio: 9 / 16;   /* vertical video */
+    overflow: hidden;       /* hide black edges */
+    margin-bottom: 20px;    /* spacing */
+  }
+
+  .video-container-small iframe {
+    width: 100%;            /* fill container */
+    height: 100%;
+    border: 0;
+  }
+
     /* Optional: style product gallery images */
     .product-gallery img {
       width: 200px;
